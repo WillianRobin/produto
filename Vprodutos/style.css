@@ -15,7 +15,14 @@ header{
 header a img{
     width: 20vw;
 }
-
+.logo{
+    opacity: 0.5;
+    transition: 0.2s ease-out;
+}
+.logo:hover{
+    opacity: 1;
+    cursor:zoom-in
+}
 .container{
     display: flex;
     align-items: center;
@@ -37,6 +44,7 @@ header a img{
 
 .produto{
     border: #ddd 1px solid;
+    border-radius: 0vh 2vw ;
     display: flex;
     margin: 2vh 2vw;
     padding: 1vh 1vw;
@@ -53,12 +61,20 @@ span{
 .sugestao{
     display: block;
     border: 1px #ddd solid;
-    width: 20vw;
+    width: 30vw;
     text-align: center;
 }
 .produtos img{
     height: 10vh;
-    background-color: #ddd;
-    border-radius: 1vh;
-    margin-right: 1vw;
+    border-radius: 1vi;
+    margin-right: 1vi;
+}
+
+::-webkit-scrollbar{
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 3vi;
 }
